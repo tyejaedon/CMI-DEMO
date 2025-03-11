@@ -6,6 +6,7 @@ import EventsPage from "./pages/events";
 import AccountabilityPage from "./pages/accbility";
 import DonationPage from "./pages/donation";
 import Dashboard from "./pages/dashboard";
+
 import "./App.css"; // Main styling
 
 function App() {

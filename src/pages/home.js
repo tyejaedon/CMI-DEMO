@@ -5,6 +5,7 @@ import image2 from "../assets/image2.jpeg";
 import image3 from "../assets/image3.jpeg";
 import image4 from "../assets/image4.jpeg";
 import AboutUs from "../components/about_us";
+
 const Home = () => {
   return (
     <div className="home-container">
