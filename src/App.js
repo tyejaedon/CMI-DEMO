@@ -10,36 +10,41 @@ import Dashboard from "./pages/dashboard";
 
 import "./App.css"; // Main styling
 
-// Define your routes
-const router = createBrowserRouter([
+// Define your routes and include basename for subpath handling
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/events",
+      element: <EventsPage />,
+    },
+    {
+      path: "/donations",
+      element: <DonationPage />,
+    },
+    {
+      path: "/accountability",
+      element: <AccountabilityPage />,
+    },
+    {
+      path: "/dashboard",
+      element: <Dashboard />,
+    },
+  ],
   {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/events",
-    element: <EventsPage />,
-  },
-  {
-    path: "/donations",
-    element: <DonationPage />,
-  },
-  {
-    path: "/accountability",
-    element: <AccountabilityPage />,
-  },
-  {
-    path: "/dashboard",
-    element: <Dashboard />,
-  },
-]);
+    basename: "/CMI-DEMO",  // Add this line for base URL handling
+  }
+);
 
 function App() {
   return (
     <RouterProvider router={router}>
       <Navbar />
       <div className="content">
-        {/* You no longer need <Routes> here */}
+        {/* All route rendering is handled by RouterProvider */}
       </div>
       <Footer />
     </RouterProvider>
