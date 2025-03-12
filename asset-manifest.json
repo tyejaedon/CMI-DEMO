@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/CMI-DEMO/static/css/main.4110fb3e.css",
+    "main.js": "/CMI-DEMO/static/js/main.17b17ab8.js",
+    "static/media/pfp.png": "/CMI-DEMO/static/media/pfp.5c73483cd3fbab5ea8b0.png",
+    "static/media/event3.png": "/CMI-DEMO/static/media/event3.904df13c6a323a4f41c8.png",
+    "static/media/logo.png": "/CMI-DEMO/static/media/logo.d3f8c72a4706078d29f8.png",
+    "static/media/manager2.jpg": "/CMI-DEMO/static/media/manager2.3a7e67f1ac3f31e48db8.jpg",
+    "static/media/image2.jpeg": "/CMI-DEMO/static/media/image2.f261086bfa3851430d13.jpeg",
+    "static/media/image3.jpeg": "/CMI-DEMO/static/media/image3.f6dc0e8ecb33d90e45d0.jpeg",
+    "static/media/manager1.jpeg": "/CMI-DEMO/static/media/manager1.78440289ca5a9e0645de.jpeg",
+    "static/media/image4.jpeg": "/CMI-DEMO/static/media/image4.d6281812c52250ef5a47.jpeg",
+    "static/media/image1.jpeg": "/CMI-DEMO/static/media/image1.0b4e84c400ac720d690d.jpeg",
+    "static/media/event1.jpeg": "/CMI-DEMO/static/media/event1.61060f0e7488aee260ac.jpeg",
+    "static/media/events2.jpeg": "/CMI-DEMO/static/media/events2.ee45f718247e3e38f03a.jpeg",
+    "static/media/change.jpeg": "/CMI-DEMO/static/media/change.829d53c9b56b14e82eee.jpeg",
+    "static/media/manager3.jpeg": "/CMI-DEMO/static/media/manager3.fcee5e3a7a1762133442.jpeg",
+    "index.html": "/CMI-DEMO/index.html",
+    "main.4110fb3e.css.map": "/CMI-DEMO/static/css/main.4110fb3e.css.map",
+    "main.17b17ab8.js.map": "/CMI-DEMO/static/js/main.17b17ab8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4110fb3e.css",
+    "static/js/main.17b17ab8.js"
+  ]
+}
