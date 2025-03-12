@@ -1,4 +1,4 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
 
 import Navbar from "./components/navbar";
 import Home from "./pages/home";
@@ -15,40 +15,44 @@ const router = createBrowserRouter(
   [
     {
       path: "/",
-      element: <Home />,
-    },
-    {
-      path: "/events",
-      element: <EventsPage />,
-    },
-    {
-      path: "/donations",
-      element: <DonationPage />,
-    },
-    {
-      path: "/accountability",
-      element: <AccountabilityPage />,
-    },
-    {
-      path: "/dashboard",
-      element: <Dashboard />,
+      element: (
+        <>
+          <Navbar />
+          <Outlet />
+          <Footer />
+        </>
+      ),
+      children: [
+        {
+          index: true,
+          element: <Home />,
+        },
+        {
+          path: "events",
+          element: <EventsPage />,
+        },
+        {
+          path: "donations",
+          element: <DonationPage />,
+        },
+        {
+          path: "accountability",
+          element: <AccountabilityPage />,
+        },
+        {
+          path: "dashboard",
+          element: <Dashboard />,
+        },
+      ],
     },
   ],
   {
-    basename: "/CMI-DEMO",  // Add this line for base URL handling
+    basename: "/CMI-DEMO", // Add this line for base URL handling
   }
 );
 
 function App() {
-  return (
-    <RouterProvider router={router}>
-      <Navbar />
-      <div className="content">
-        {/* All route rendering is handled by RouterProvider */}
-      </div>
-      <Footer />
-    </RouterProvider>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

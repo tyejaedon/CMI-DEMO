@@ -40,7 +40,7 @@ Let me know if you need any formatting adjustments or edits! 🚀    </i>    </p
       {/* Objectives Section */}
       <div className="section">
         <h2>Our Objectives</h2>
-        <ul class="objectives-list">
+        <ul className="objectives-list">
           <li>✔ Influence policy-making and educate community members about the rights of youths and women.</li>
           <li>✔ Educate women, children, and youths about their rights as provided in the Constitution of Kenya and the Universal Declaration of Human Rights (UDHR).</li>
           <li>✔ Promotion of education among children living under abject poverty through sponsorship of programs in schools.</li>
