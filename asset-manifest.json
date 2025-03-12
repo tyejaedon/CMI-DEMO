@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CMI-DEMO/static/css/main.4110fb3e.css",
-    "main.js": "/CMI-DEMO/static/js/main.17b17ab8.js",
+    "main.js": "/CMI-DEMO/static/js/main.e7247a87.js",
     "static/media/pfp.png": "/CMI-DEMO/static/media/pfp.5c73483cd3fbab5ea8b0.png",
     "static/media/event3.png": "/CMI-DEMO/static/media/event3.904df13c6a323a4f41c8.png",
     "static/media/logo.png": "/CMI-DEMO/static/media/logo.d3f8c72a4706078d29f8.png",
@@ -17,10 +17,10 @@
     "static/media/manager3.jpeg": "/CMI-DEMO/static/media/manager3.fcee5e3a7a1762133442.jpeg",
     "index.html": "/CMI-DEMO/index.html",
     "main.4110fb3e.css.map": "/CMI-DEMO/static/css/main.4110fb3e.css.map",
-    "main.17b17ab8.js.map": "/CMI-DEMO/static/js/main.17b17ab8.js.map"
+    "main.e7247a87.js.map": "/CMI-DEMO/static/js/main.e7247a87.js.map"
   },
   "entrypoints": [
     "static/css/main.4110fb3e.css",
-    "static/js/main.17b17ab8.js"
+    "static/js/main.e7247a87.js"
   ]
 }
