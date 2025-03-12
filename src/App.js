@@ -1,4 +1,5 @@
-import {  Router, Routes, Route } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+
 import Navbar from "./components/navbar";
 import Home from "./pages/home";
 import Footer from "./components/footer";
@@ -9,21 +10,39 @@ import Dashboard from "./pages/dashboard";
 
 import "./App.css"; // Main styling
 
+// Define your routes
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/events",
+    element: <EventsPage />,
+  },
+  {
+    path: "/donations",
+    element: <DonationPage />,
+  },
+  {
+    path: "/accountability",
+    element: <AccountabilityPage />,
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard />,
+  },
+]);
+
 function App() {
   return (
-    <Router>
+    <RouterProvider router={router}>
       <Navbar />
       <div className="content">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/events" element={<EventsPage/>} />
-          <Route path="/donations" element={<DonationPage/>} />
-          <Route path="/accountability" element={<AccountabilityPage/>} />
-          <Route path="/dashboard" element={<Dashboard />} />
-        </Routes>
+        {/* You no longer need <Routes> here */}
       </div>
       <Footer />
-    </Router>
+    </RouterProvider>
   );
 }
 
